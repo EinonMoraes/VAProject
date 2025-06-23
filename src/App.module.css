@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+    
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundImage {
+  width: 100vw; 
+  height: 100vh; 
+  display: block;
+  overflow: hidden;
+  object-fit: cover ; 
+  /* transform: scale(0.9); */
+}
