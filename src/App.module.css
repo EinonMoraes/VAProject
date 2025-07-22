@@ -4,38 +4,3 @@
     }
     
 }
-
-.container {
-    position: relative;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-}
-
-.backgroundImage {
-  width: 100vw; 
-  height: 100vh; 
-  display: block;
-  overflow: hidden;
-  object-fit: cover ; 
-  filter: brightness(0.4);
-  
-}
-
-.textOverlay {
-    position: absolute;
-    text-align: center;
-}
-
-.textOverlay strong {
-    font-size: 3rem;
-    color: var(--brown);
-}
-
-.textOverlay p {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--white);
-}
