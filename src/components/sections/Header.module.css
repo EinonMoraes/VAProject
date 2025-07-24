@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+    background: var(--black);
+}
+
+.headerLogo {
+    margin-left: 2.625rem;
+}
+
+.buttonContainer {
+    margin-right: 2.625rem ;
+}
+
+.button {
+  background: none;
+  font-weight: 500;
+  border: none;
+  font-size: 1.125rem;
+  color: var(--white);
+  padding: 1rem 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--brown);
+    transition: width 0.4s ease;
+}
+
+.button:hover {
+  color: var(--brown);
+}
+
+.button:hover::after {
+    width: 100%;
+  }
