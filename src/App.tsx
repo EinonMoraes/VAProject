@@ -1,7 +1,8 @@
 import './global.css'
-import styles from './App.module.css'
-import { Header } from './components/Header'
-import { Home } from './components/Home'
+// import styles from './App.module.css'
+import { Header } from './components/sections/Header'
+import { Home } from './components/sections/Home'
+import { About } from './components/sections/About'
 
 export function App() {
   
@@ -9,6 +10,7 @@ export function App() {
     <div>
       <Header/>
       <Home/>
+      <About/>
     </div>
   )
 }
