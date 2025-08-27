@@ -1,36 +1,3 @@
-.backgroundContainer {
-   width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.backgroundImage {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url('../../assets/imgs/img1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(0.2);
-  z-index: 1;
-}
-
-
-.sacada {
-  position: relative;
-  z-index: 2;
-  display: flex;
-
-  width: 31.25rem;
-  height: 50rem;
-  margin-left: 2.25rem;
-  border-radius: 1rem;
-}
-
 .header {
   display: flex;
   height: 6.93rem;
@@ -50,4 +17,52 @@
     text-underline-offset: 10px;
     text-decoration-color: var(--brown);
 }
- 
+
+.backgroundContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/imgs/img1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.2);
+  z-index: 1;
+}
+
+
+.sacada {
+  position: relative;
+  z-index: 1;
+  display: flex;
+
+  width: 31.25rem;
+  height: 50rem;
+  margin-left: 6.25rem;
+  border-radius: 1rem;
+}
+
+.card1 {
+display: flex;
+flex-direction: column;
+margin-right: 100px;
+z-index: 1;
+}
+
+.card2 {
+display: flex;
+/* width: 752px;
+height: 300px; */
+margin-top: 60px;
+justify-content: space-between;
+} 
