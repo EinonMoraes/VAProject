@@ -1,0 +1,93 @@
+.aboutCard {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.aboutCard h1 {
+    font-size: 2rem;
+    color: var(--brown);
+}
+
+.aboutCard p {
+    text-align: center;
+    margin: 72px 73px 77px 77px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.headerAboutCard {
+    display: flex;
+    width: 752px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+
+    background-color: var(--black);
+}
+
+.aboutContainer {
+    display: flex;
+    border-radius: 0 0 8px 8px;
+
+    width: 752px;
+    height: 340px;
+    align-items: center;
+
+    background-color: var(--brown);
+}
+
+.benefitCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefitCard h1 {
+    font-size: 1rem;
+    color: var(--brown);
+    margin-bottom: 18px;
+    font-size: 18px;
+    /* margin-top: 8px; */
+}
+
+.benefitCard p {
+    display: flex;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.benefitIcon {
+    display: flex;
+    color: var(--brown);
+    font-size: 4rem;
+    
+}
+
+.headerBenefitContainer {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+
+    background-color: var(--black);
+}
+
+.benefitContainer {
+    display: flex;
+    border-radius: 0 0 8px 8px;
+
+    width: 170px;
+    height: 180px;
+    align-items: center;
+
+    background-color: var(--brown);
+}
